@@ -17,8 +17,8 @@ The repository is organized into two main directories: `data` and `code`.
 
 This folder contains all data files essential for reproducing our experiments:
 
-* **original_data:** The ready_to_use data).
-* **Keyphrase Prediction Data:** Processed data formatted for the keyphrase prediction task (e.g., training, validation, and testing splits).
+* **original_data:** The ready_to_use data.
+* **Keyphrase Prediction Data:** Processed data formatted for the keyphrase prediction task.
 * **Keyphrase Recognition Data:** Data specifically curated for the discriminative tasks, including the **Single-Choice Question (SCQ), True/False (TF), and Multiple-Choice Question (MCQ)** sets with hard negative keyphrases. 
 
 ## 💻 Code Directory (`code/`)
