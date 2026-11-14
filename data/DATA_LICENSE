@@ -1,0 +1,16 @@
+## License & Data Compliance
+
+This repository employs a dual-licensing framework to cover both software code and processed datasets:
+
+1. **Source Code**:
+   All source code, scripts, and model pipelines in this repository are licensed under the [MIT License](LICENSE).
+
+2. **Dataset & Artifacts**:
+   All datasets, extracted features, and model outputs (located in the `data/` directory and permanently archived on Zenodo at [DOI: 10.5281/zenodo.22702877](https://zenodo.org/records/22702877)) are licensed under the **[Creative Commons Attribution 4.0 International (CC BY 4.0)](data/DATA_LICENSE)** license.
+
+3. **Data Source, Transformation, and Legal Compliance**:
+   - **Original Data Source**: The raw materials originate from the [Patent Search and Analysis System of the China National Intellectual Property Administration (CNIPA)](https://pss-system.cponline.cnipa.gov.cn/notice). The intellectual property rights of the raw data belong to CNIPA.
+   - **Data Transformation & Redistribution**: In strict compliance with CNIPA's copyright terms (which prohibit commercial reproduction in original form and layout), this dataset does **not** redistribute verbatim documents or original-format mirrors:
+     - **Patent Texts**: Raw patent texts have been cleaned, filtered, and restructured into processed analytical schemas.
+     - **Examiner Search-Report Information**: All original narrative texts, official document layouts, and correspondence have been excluded. Only abstract structured mappings—specifically, the patent ID and its associated keyphrase list—are retained and merged into standardized entries.
+   - **Usage & Disclaimer**: This dataset is provided for academic research and educational purposes. Users must give appropriate credit to the original authors and adhere to the source provider's terms of use.
